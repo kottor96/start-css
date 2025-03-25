@@ -1,5 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: rgb(44, 62, 80);
-    color: white;
     display: flex;
+    justify-content: space-evenly;
+    min-height: 87px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+}
+header div:nth-of-type(2){
+    display: flex;
+    gap: 10px;
+    justify-content: center;    
 }
