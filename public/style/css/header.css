@@ -10,7 +10,7 @@ header{
     justify-content: center;
     min-height: 87px;
     height: auto;
-    gap: 500px;
+    gap: 50%;
     width: 100%;
     align-items: center;
 }
@@ -29,4 +29,11 @@ header div:nth-of-type(2){
     justify-content: center;    
     font-size: 14px;
     font-weight: 500
+}
+@media (max-width:675px){
+    header{
+        justify-content: space-between;
+        gap: 0; 
+    }
+
 }

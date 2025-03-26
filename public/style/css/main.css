@@ -114,3 +114,30 @@ main{
 #contact div{
     width: 38%;
 }
+@media (max-width:1024px) and (min-width:768px){
+    #folio div{
+        gap: 10px;
+    }
+}
+@media (max-width:768px){
+    #folio div{
+        gap: 10px;
+    }
+    #folio{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #folio h2{
+        margin-bottom: 100px;
+    }
+    #folio div div{
+        height: 140px;
+        width: auto;
+    }
+    #about>div>div>p{
+        width: 100%;
+    }
+    #about>div{
+        width: 100%;
+    }
+}
