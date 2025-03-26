@@ -118,6 +118,17 @@ main{
     #folio div{
         gap: 10px;
     }
+    #folio{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #folio h2{
+        margin-bottom: 100px;
+    }
+    #folio div div{
+        height: 180px;
+        width: auto;
+    }
 }
 @media (max-width:768px){
     #folio div{
