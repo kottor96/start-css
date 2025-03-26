@@ -7,9 +7,10 @@ body{
 header{
     background-color: rgb(44, 62, 80);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     min-height: 87px;
     height: auto;
+    gap: 500px;
     width: 100%;
     align-items: center;
 }
@@ -17,8 +18,15 @@ header div a{
     text-decoration: none;
     color: white;
 }
+header div:first-child a{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
 header div:nth-of-type(2){
     display: flex;
     gap: 10px;
     justify-content: center;    
+    font-size: 14px;
+    font-weight: 500
 }
