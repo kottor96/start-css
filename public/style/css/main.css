@@ -22,6 +22,9 @@
 #start img{
     width: 180px;
     height: 220px;
+    animation: toupie 9s;
+    animation-duration: 4s;
+    animation-iteration-count: 50;
 }
 #folio h2{
     text-align: center;
@@ -150,5 +153,26 @@ main{
     }
     #about>div{
         width: 100%;
+    }
+}
+@keyframes toupie {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+        filter: brightness(50) ;
+    }
+    50%{
+        transform: rotate(180deg);
+        filter: invert();
+    }
+    75%{
+        transform: rotate(270deg);
+        transform: opacity(20%);
+    }
+    100%{
+        transform: rotate(360deg);
+        transform: translateX(50px)
     }
 }
