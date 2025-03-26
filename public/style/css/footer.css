@@ -50,3 +50,8 @@ span{
 footer h3{
     padding-bottom: 10px;
 }
+.icone div:hover ,.icone div:hover i{
+    color: black;
+    background-color: white;
+    transition: 450ms;
+}
