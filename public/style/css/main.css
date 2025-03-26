@@ -25,6 +25,9 @@
 }
 #folio h2{
     text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    margin-bottom: 10px;
 }
 #folio div{
     display: flex;
@@ -43,9 +46,10 @@
     border-radius: 10px;
 }
 #folio{
-    padding: 80px;
+    padding: 50px;
     padding-left: 222px;
     padding-right: 222px;
+    min-height: 546px;
 }
 main{
     margin: 0;
