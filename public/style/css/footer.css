@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
+footer>div:first-child{
+    align-items: flex-start;
+    gap: 40px;
+    background-color: rgb(44, 62, 80);
+}
+footer i{
+    color: white;
+    border: 1px white solid;
+    border-radius: 50%;
+    font-size: 150px;
+    gap: 20px;
+
+}
+footer>div>div{
+    flex-direction: column;
+}
+footer>div:last-child{
+    background-color: rgb(26, 37, 47);
+}
